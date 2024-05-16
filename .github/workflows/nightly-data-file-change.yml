@@ -10,7 +10,7 @@ on:
 jobs:
   # Run the common workflow on each pull request
   Nightly_Data_File_Change:
-    uses: 51Degrees/common-ci/.github/workflows/nightly-data-file-change.yml@main
+    uses: postindustria-tech/common-ci/.github/workflows/nightly-data-file-change.yml@main
     with:
       repo-name: ${{ github.event.repository.name }}
       org-name: ${{ github.event.repository.owner.login }}
